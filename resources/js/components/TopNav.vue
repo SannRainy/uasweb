@@ -2,7 +2,7 @@
     <div class="px-3 py-4 flex items-center justify-between w-full">
       <div class="flex items-center">
         <button class="rounded-full hover:bg-light p-3 flex items-center justify-center" type="button" name="button">
-          <img src="img/logo.png" alt="logo" class="h-6 w-6">
+          <img src="/public/img/logo.png" alt="logo" class="h-6 w-6">
         </button>
         <button v-for="(item, i) in tabItems" :key="i" @click="selectedTab = item.key" :class="`${selectedTab === item.key ? 'bg-dark text-white' : 'text-dark hover:bg-light'} rounded-full py-3 px-4 font-semibold`" type="button" name="button">
           {{ item.name }}
