@@ -22,7 +22,7 @@
           <div class="rounded-full h-5 w-5 bg-primary text-white flex items-center justify-center absolute mb-5 ml-5">1</div>
         </button>
         <button class="rounded-full hover:bg-light p-3 flex items-center justify-center" type="button" name="button">
-          <div class="w-6 h-6 bg-cover bg-center rounded-full" style="background-image: url(profile.jpg)"></div>
+          <div class="w-6 h-6 bg-cover bg-center rounded-full" style="background-image: url(/img/profile.jpg)"></div>
         </button>
         <button type="button" name="button" class="w-6 h-6 hover:bg-light rounded-full flex items-center justify-center">
           <span class="material-icons text-muted">expand_more</span>
