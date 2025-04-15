@@ -39,9 +39,5 @@
   }
 </script>
 
-<style scoped>
-/* tambahkan style jika perlu */
-</style>
-
   <style lang="css" scoped>
   </style>
