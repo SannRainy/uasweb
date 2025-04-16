@@ -50,7 +50,7 @@
     },
     mounted() {
       // Mengambil data dari API (Gantilah URL sesuai dengan API kamu)
-      axios.get('http://localhost:8000/api/cards')
+      axios.get('http://uasweb.test/api/cards')
         .then(response => {
           this.cards = response.data;  // Menyimpan data ke cards
         })
